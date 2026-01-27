@@ -20,7 +20,7 @@ Do not include any other text, labels, or intros. Just the clean captions.
 """
 
 # 2. Page Config & Custom Branding CSS
-st.set_page_config(page_title="CaptionBot SaaS", layout="wide", page_icon="🤖")
+st.set_page_config(page_title="CaptionBot", layout="wide", page_icon="🤖")
 
 st.markdown("""
     <style>
@@ -100,7 +100,7 @@ with st.sidebar:
                 st.rerun()
 
 # --- MAIN INTERFACE ---
-st.markdown('<div class="main-header">CaptionBot SaaS</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">CaptionBot by Dev Faruk</div>', unsafe_allow_html=True)
 st.markdown('<div class="sub-header">The ultimate AI engine for social media captions</div>', unsafe_allow_html=True)
 
 current_chat = st.session_state.all_chats[st.session_state.current_chat_id]
@@ -153,4 +153,5 @@ if prompt_data:
         
         current_chat["messages"].append({"role": "assistant", "content": response.text})
     except Exception as e:
+
         st.error(f"Error: {e}")
