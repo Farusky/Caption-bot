@@ -23,8 +23,8 @@ A professional, conversational AI chatbot designed to generate high-engagement s
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/caption-ai-saas.git](https://github.com/YOUR_USERNAME/caption-ai-saas.git)
-cd caption-ai-saas
+git clone [https://github.com/Farusky/Caption-bot](https://github.com/Farusky/Caption-bot)
+cd Caption-bot
 
 ```
 
